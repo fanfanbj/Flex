@@ -18,6 +18,14 @@ Has the extra functions:
 * config server
 * Rolling update
 
+# RoadMap
+* -> Container(Docker) 
+	* -> Cluster(based on container) 
+		* -> OpsManager
+			* -> Paas
+
+
+
 # Product Subsystems or Components
 The following picture shows an overview of the functional architecture. It represents all components of the product which produce some functionality. and how they are placed with each others.
 ![image](https://github.com/fanfanbj/Flex/blob/master/flex.jpg)
