@@ -19,12 +19,10 @@ Has the extra functions:
 * Rolling update
 
 # RoadMap
-* -> Container(Docker) 
-	* -> Cluster(based on container) 
-		* -> OpsManager
+* －> Container solution and integrate with distribution system solution(mesos，kubernetes，swarm) 
+	* －> OpsManager
+		* -> Common Service Solution 
 			* -> Paas
-
-
 
 # Product Subsystems or Components
 The following picture shows an overview of the functional architecture. It represents all components of the product which produce some functionality. and how they are placed with each others.
