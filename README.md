@@ -21,7 +21,7 @@ Has the extra functions:
 # RoadMap
 * －> Container solution and integrate with distribution system solution(mesos，kubernetes，swarm) 
 	* －> OpsManager
-		* -> provides common service solutions, to be Paas
+		* -> provides common service solutions, to be Paas in the future.
 
 # Product Subsystems or Components
 The following picture shows an overview of the functional architecture. It represents all components of the product which produce some functionality. and how they are placed with each others.
