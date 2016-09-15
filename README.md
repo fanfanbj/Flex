@@ -11,7 +11,7 @@ Has the following functions:
 
 Has the extra functions:
 
-* registry management
+* registry
 * stack
 * application store (middleware services and big data components)
 * CI/CD
