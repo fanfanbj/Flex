@@ -3,8 +3,7 @@ Flex is a plateform solution which provides to deploy containerization applicati
 
 Has the following functions:
 
-* stage application and scale-out
-* application management (log, monitor, debug, health check and so on.)
+* application management (stage application and scale-out,log, monitor, debug, health check and so on.)
 * cluster management
 * host management (add host, host component monitor, host system monitor and so on.)
 * network management
@@ -13,6 +12,7 @@ Has the following functions:
 Has the extra functions:
 
 * registry management
+* stack
 * application store (middleware services and big data components)
 * CI/CD
 * config server
