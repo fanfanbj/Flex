@@ -20,4 +20,4 @@ Has the extra functions:
 
 # Product Subsystems or Components
 The following picture shows an overview of the functional architecture. It represents all components of the product which produce some functionality. and how they are placed with each others.
-![image](http://github.com/fanfanbj/flex/flex.jpg)/workspace/repo/Flex/flex.jpg/workspace/repo/Flex/flex.jpg
+![image](https://github.com/fanfanbj/Flex/blob/master/flex.jpg)
