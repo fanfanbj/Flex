@@ -1,5 +1,5 @@
 # About
-Flex is a plateform solution which provides to deploy containerization applications, manage those applications's lifecycle. At the meantime, it includes solutions to manage containerization cluster,monitor,loggregation and etc.
+Flex is a plateform solution which provides to deploy containerization applications, manage those applications's lifecycle. At the meantime, it includes solutions to manage containerization cluster,monitor,loggregator and etc.
 
 Has the following functions:
 
@@ -23,22 +23,22 @@ The following picture shows an overview of the functional architecture. It repre
 ![image](https://github.com/fanfanbj/Flex/blob/master/flex.jpg)
 
 # OpsManager
-OpsManager is a plateform management, which is micro-service framework. it will use consul and fabio as service registration and service load-balance.
+OpsManager is a management console, which is micro-service framework. it will use consul and fabio as service registration and service load-balance.
 
-* User Interface: Console and API Client
+* User Interface: webUI and API Client
 * Micro-service framework
-* Backplane including Consul for service-register and health-check, and fabio for service zero-conf load-balance.
-* Comon service including mysql and other common services, for self-platform and will be place in appStore in the future.
-* all mico-services will use one mysql service, with seperate-table to be seperate.
+* Backplane component including Consul for service-register and health-check, and fabio for service zero-conf load-balance.
+* Comon service, as basic service in OpsManager including mysql and other common services, whose are for self-platform and will be added into appStore in the future for apps using.
+* all mico-services in OpsManager will use one mysql service as share database, with seperate-tables policy to be seperated.
 
 
 # Elastic Runtime
 Elastic Runtime is a container management system, which is based on mesos.
 
 * core components: mesos-master,zookeeper, mesos-slave, marathon.
-* compose-executor and app staging & running can be store in app DB, for metrics and log or debug.
-* each host in cluster has main services, including: service discovery (consul and fabio), sshd, access service for loggregator and other services, such as: network-agent and so on.
+* compose-executor and app staging & running should be stored in app DataBase, for metrics and log or debug to use.
+* each host in cluster has main services, including: service discovery (consul and fabio), sshd, and access service for loggregator and other services, such as: network-agent and so on.
 
 #TODO
-* consider OpsManager HA.
-* mesos components in elastic runtime should be changed by other framework, such as: kubernetes and swarm.
+* Consider OpsManager High Availability.
+* mesos components in elastic runtime should be replaced by other framework, such as: kubernetes and swarm.
