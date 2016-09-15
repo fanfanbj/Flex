@@ -37,7 +37,7 @@ Elastic Runtime is a container management system, which is based on mesos.
 
 * core components: mesos-master,zookeeper, mesos-slave, marathon.
 * compose-executor and app staging & running should be stored in app DataBase, for metrics and log or debug to use.
-* each host in cluster has main services, including: service discovery (consul and fabio), sshd, and access service for loggregator and other services, such as: network-agent and so on.
+* each host in cluster has main services, including: service discovery (consul and fabio), sshd，and access service for loggregator and other services, such as: network-agent and so on.
 
 #TODO
 * Consider OpsManager High Availability.
