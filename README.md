@@ -27,7 +27,7 @@ Has the extra functions:
 The following picture shows an overview of the functional architecture. It represents all components of the product which produce some functionality. and how they are placed with each others.
 ![image](https://github.com/fanfanbj/Flex/blob/master/flex.jpg)
 
-# OpsManager
+# [OpsManager](https://github.com/fanfanbj/flex-OpsManager)
 OpsManager is a management console, which is micro-service framework. it will use consul and fabio as service registration and service load-balance.
 
 * User Interface: webUI and API Client
@@ -37,7 +37,7 @@ OpsManager is a management console, which is micro-service framework. it will us
 * all mico-services in OpsManager will use one mysql service as share database, with seperate-tables policy to be seperated.
 
 
-# Elastic Runtime
+# [Elastic Runtime](https://github.com/fanfanbj/flex-ElasticRuntime)
 Elastic Runtime is a container management system, which is based on mesos.
 
 * core components: mesos-master,zookeeper, mesos-slave, marathon.
